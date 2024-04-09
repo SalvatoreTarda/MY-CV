@@ -1,0 +1,158 @@
+/* Font */
+* {
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* colori */
+  :root{
+    --r: rgb(255, 5, 5);
+    --b: rgb(23,23,23);
+    --w: rgb(233,233,233);
+    --y: rgb(255, 255, 0);
+}
+
+
+.text-r{
+  color: var(--r);
+}
+
+.text-w{
+  color: var(--w);
+}
+
+.text-b{
+  color: var(--b);
+}
+
+.text-y{
+  color: var(--y);
+}
+
+
+  
+  /* Card e immagini */
+
+.cardCustom{
+    width: 280px;
+    height: 380px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    padding: 5px;
+    bottom: 4px;
+}
+
+.card-img{
+  width: 260px;
+  height: 360px;
+}
+.carousel-inner{
+    width: 500px;
+    height:500px;
+    box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.795), 0 6px 20px 0 rgb(239, 239, 239);
+    border-radius: 2%;
+    bottom: 4px;
+}
+
+.card-b {
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+    bottom: 4px;
+    box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.795), 0 6px 20px 0 rgb(239, 239, 239);
+    transition: all 1s ease;
+}
+
+.card-b:hover{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgb(255, 3, 3), 0 6px 10px 0  rgb(252, 252, 252);
+    transform: rotate(360deg);
+}
+
+
+.card-bio{
+    width: 500px;
+    height: 600px;
+    padding: 5px;
+    bottom: 4px;
+    box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.795), 0 6px 20px 0 rgb(239, 239, 239);
+    transition: all 2s ease;   
+}
+
+.card-img-bio{
+    width: 480px;
+    height: 580px;
+}
+
+.card-bio:hover{
+    width: 530px;
+    height: 630px;
+    box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0  rgb(252, 252, 252);
+    transform: rotate(360deg);
+}
+
+/* .card-img-bio:hover{
+  width: 500px;
+  height: 600px;
+} */
+
+.img-responsive{
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .img-responsive {
+      width: 75%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img-responsive {
+      width: 50%; 
+    }
+  }    
+/* Navbar */
+
+.navbar{
+  
+  transition: all 0.7s ease;
+}
+
+.bg-t{
+  background-color: #FFFFFF44;
+  backdrop-filter: blur(8px);
+}
+
+.bg-w{
+  color: var(--w);
+}
+
+.nav-link:hover{
+    color: var(--y);
+}
+
+/* offcanvas */
+
+.offcanvasCustom{ 
+  height: 100% !important;
+}
+
+.off-link:hover{
+  color: var(--y);
+} */
+
+
+/* bottoni */
+.btn:hover{
+  color: var(--y);
+  box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0  rgb(252, 252, 252);
+  transform: scale(1,1.2);
+  transition: all 0.7s ease;
+}
+
+.up{
+  border-radius: 10px;
+  background-color: transparent;
+  opacity: 0.7;
+}
