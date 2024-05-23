@@ -1,6 +1,6 @@
 /* Font */
 * {
-    font-family: "Shadows Into Light Two", cursive;
+    font-family: "Roboto", cursive;
     font-weight: 400;
     font-style: normal;
   }
@@ -10,6 +10,9 @@
     --b: rgb(23,23,23);
     --w: rgb(233,233,233);
     --y: rgb(255, 255, 0);
+    --bl: rgb(0, 2, 90);
+    --cl:  rgba(0, 195, 255, 0.821);
+
 }
 
 
@@ -29,6 +32,16 @@
   color: var(--y);
 }
 
+.text-bl{
+  color: var(--bl);
+}
+
+/* .WebDev{
+  background-image: linear-gradient(rgba(23,23,23,0.6), rgba(23,23,23,0.5)), url(public/img/WEB.jpg);
+  background-position: center;
+  background-size: cover;
+} */
+
 
   
   /* Card e immagini */
@@ -42,10 +55,37 @@
     bottom: 4px;
 }
 
+.cardCustomb{
+  width: 280px;
+    height: 380px;
+    box-shadow: 0 4px 8px 0 var(--r), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    padding: 5px;
+    bottom: 4px;
+}
+
 .card-img{
-  width: 260px;
+  width: 270px;
   height: 360px;
 }
+
+.card-img:hover{
+  width: 340px;
+  height: 440px;
+  transition: all 2s;
+}
+
+.card-imgb{
+  width: 270px;
+  height: 360px;
+}
+
+.card-img:hover{
+  width: 300px;
+  height: 390px;
+}
+
+
 .carousel-inner{
     width: 500px;
     height:500px;
@@ -64,16 +104,16 @@
 }
 
 .card-b:hover{
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     box-shadow: 0 4px 8px 0 rgb(255, 3, 3), 0 6px 10px 0  rgb(252, 252, 252);
     transform: rotate(360deg);
 }
 
 
 .card-bio{
-    width: 500px;
-    height: 600px;
+    width: 250px;
+    height: 350px;
     padding: 5px;
     bottom: 4px;
     box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.795), 0 6px 20px 0 rgb(239, 239, 239);
@@ -81,21 +121,30 @@
 }
 
 .card-img-bio{
-    width: 480px;
-    height: 580px;
+    width: 250px;
+    height: 300px;
 }
 
 .card-bio:hover{
-    width: 530px;
-    height: 630px;
+    width: 300px;
+    height: 350px;
     box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0  rgb(252, 252, 252);
-    transform: rotate(360deg);
+    transform: scale(2,2);
 }
 
-/* .card-img-bio:hover{
-  width: 500px;
-  height: 600px;
-} */
+.testo{
+  text-align: justify;
+}
+
+.bg-bl{
+  background-color: var(--bl);
+  box-shadow: 0 4px 8px 0 var(--bl), 0 6px 10px 0  rgb(252, 252, 252);
+
+}
+
+.bg-cl{
+  background-color: var(--cl);
+}
 
 .img-responsive{
     width: 100%; 
@@ -129,30 +178,233 @@
 }
 
 .nav-link:hover{
-    color: var(--y);
+    color: var(--r);
 }
 
-/* offcanvas */
-
-.offcanvasCustom{ 
-  height: 100% !important;
+.navbar-toggler{
+  margin-right: 45px;
+ 
+  
 }
-
-.off-link:hover{
-  color: var(--y);
-} */
-
 
 /* bottoni */
+
+.btn{
+  cursor:pointer;
+    position:relative;
+    padding:10px 20px;
+    background-color: #FFFFFF44;
+    backdrop-filter: blur(8px);
+    font-size:12px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:all 1s;
+  
+  }
+
+
+
 .btn:hover{
   color: var(--y);
   box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0  rgb(252, 252, 252);
   transform: scale(1,1.2);
-  transition: all 0.7s ease;
+  transition: all 0.7s ease-in-out;
 }
 
-.up{
-  border-radius: 10px;
-  background-color: transparent;
-  opacity: 0.7;
+
+
+/* torna su */
+
+:root {
+  --y: #FFD700; /* Sostituisci con il colore desiderato */
+  --r: rgb(255, 5, 5); /* Sostituisci con il colore desiderato */
 }
+
+.torna-su {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.torna-su a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color:  #2600ff80;
+  backdrop-filter: blur(8px);
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0.7s ease-in-out;
+}
+
+.torna-su a:hover {
+  color: var(--y);
+  box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0 rgb(252, 252, 252);
+  transform: scale(1, 1.2);
+  
+}
+
+.saltello{
+  animation: bounce 0.5s;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
+.torna-su.show {
+  opacity: 1;
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #FFFFFF44;
+  backdrop-filter: blur(8px);
+  box-shadow: 4px 8px 0 rgba(173, 173, 173, 0.795), 0 6px 20px 0 rgb(239, 239, 239);
+  backdrop-filter: blur(8px);
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content card */
+.modal-content {
+  background-color: #FFFFFF44;
+  backdrop-filter: blur(8px);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: var(--b);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:var(--y);
+  text-decoration: none;
+  cursor:pointer;
+}
+
+
+
+
+/* Card Portfolio */
+
+.cardPort{
+  box-shadow: 0 4px 8px 0 rgba(173, 173, 173, 0.795), 0 6px 20px 0 rgb(239, 239, 239);
+  background-color: #FFFFFF44;
+  backdrop-filter: blur(5px);
+}
+
+/* Footer */
+
+/* .bg-bl {
+  background-color: #000; 
+} */
+
+.text-w {
+  color:var(--w); 
+}
+
+.hov a {
+  color:var(--w);
+  text-decoration: none;
+}
+
+.hov a:hover {
+  color:var(--r); 
+}
+
+.btn-floating {
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .mx-5 {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+}
+
+

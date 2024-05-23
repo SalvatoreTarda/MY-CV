@@ -1,49 +1,61 @@
 <x-layout>
     <x-header title="Grafica" />
-    <div class="row d-flex flex-row-reverse justify-content-around">
-        <div class="col-6 col-sm-3 mt-3">
-            <h3 class="h2-custom ">Come mi sono formato </h3>
-            <p class="">Durante il mio percorso accademico ho studiato la storia dell'arte, e le prime tecniche di
-                Grafica quindi l'Incisione in tutte le sue tecniche, durante questo percorso mi sono avvicinato alla
-                progettazione grafica e terminati gli studi universitari mi sono concentrato sullo specializzarmi verso
-                la Grafica di progettazione. Ho frequentato un corso di Visual Design per la Grafica, ho imparato come progettare e utilizzare i programmi della suite Adobe, nello specifico Photoshop, Illustrator e Indesign. Questo mi ha permesso di introdurmi in questo campo nonostante le mie competenze acquisite, continuo a studiare anche in questo campo per poter migliorare sempre di più le mie competenze.</p>
+    <div class="row d-flex flex-row-reverse justify-content-around align-items-center">
+        <div class="col-12 col-md-3 mt-5 my-5 ">
+            <h3 class="h2-custom text-center">I miei progetti Grafici </h3>
+            <p class="h6 my-5">Questi sono alcuni dei miei progetti lavorativi proposti in diverse varianti. 
+                Insieme anche delle esercitazioni svolte durante i corsi di formazione.</p>
         </div>
-        
-    </div>
-    <div class="container-fluid bg-dark">
-        <div class="row d-flex flex-row-reverse justify-content-center">
-            <div class="col-6 md-3 mt-3">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                    <div class="carousel-inner">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active ">
-                                <img src="/img/Drone.jpg" class="d-flex justify-content-center w-100 card-img-bio" alt="...">
-                            </div>
-                            <div class="carousel-item active ">
-                                <img src="/img/Tuttisport.jpg" class="d-flex justify-content-center w-100 card-img-bio" alt="...">
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active ">
-                                    <img src="/img/BM.jpg" class="d-flex justify-content-center w-100 card-img-bio" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="/img/Barmi.jpg" class="d-flex justify-content-center w-100 card-img-bio" alt="...">
-                                </div>
-                                
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+        <div class="col-12 col-md-4 my-5 ">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/img/BMalt.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/BMn.jpg" class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/Barmi.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/BM.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/BMgio.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/Lizzio.jpg"class="swiper-slide img">
                     </div>
-
-
+                    <div class="swiper-slide"><img src="/img/Tuttisport.jpg"class="swiper-slide img">
+                    </div>
+                    <div class="swiper-slide"><img src="/img/Drone.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/Logorg.jpg"class="swiper-slide img">
+                    </div>
+                    <div class="swiper-slide"><img src="/img/Esercisegnaletica.jpg"class="swiper-slide img">  </div>
+                    <div class="swiper-slide"><img
+                            src="/img/EsercitaScritt.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/EsercizioEti.jpg"class="swiper-slide img">
+                        </div>
+                    <div class="swiper-slide"><img src="/img/EsercizioUSB.jpg"class="swiper-slide img">
+                        </div>
+                    <div class="swiper-slide"><img
+                            src="/img/EsercizioUSB2.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img
+                            src="/img/EsercizioUSBcol.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/VarBM.jpg"class="swiper-slide img"></div>
+                    <div class="swiper-slide"><img src="/img/Fotomont.jpg"class="swiper-slide img">
+                        </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    {{-- sezione Swiper --}}
+    <div class="container-fluid ">
+        <div class="row d-flex justify-content-center">
+            
+        </div>
+    </div>
+    </div>
 </x-layout>

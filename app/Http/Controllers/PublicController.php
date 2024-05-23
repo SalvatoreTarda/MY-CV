@@ -23,4 +23,6 @@ class PublicController extends Controller
     public function GraficDesign(){
         return view('GraficDesign');
     }
+
+    
 }

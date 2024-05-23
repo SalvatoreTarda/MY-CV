@@ -1,72 +1,74 @@
 <x-layout>
 
-    <x-header title="Benvenuto sulla mia pagina" />
-    <div class="container-fluid bg-dark ">
+    <x-header title="Benvenuti sulla mia pagina" />
+    <div class="container-fluid  ">
         <div class="row d-flex flex-row-reverse justify-content-center">
             <div class="col-12 col-md-3 mt-5">
-                <h3 class="h2-custom text-white">Salve a tutti, mi presento.</h3>
-                <p class="text-white">Sono Salvatore Tarda vengo da Giarre un paese che si trova alle pendici dell'Etna,
-                    sono un Junior Web Developer con la passione per l'arte e la grafica e anche della programmazione,
-                    motivo per cui mi dedico nella creazione di progetti grafici e di siti web. </p>
-            </div> 
+                <h3 class="h2-custom text-center">Salve a tutti, mi presento.</h3>
+                <p class="h6 my-5">Sono Salvatore Tarda, vengo da <a href="https://it.wikipedia.org/wiki/Giarre">
+                        Giarre
+                    </a> un paese che si trova alle pendici dell'Etna,
+                    ma dal 2020 vivo a Roma. Sono un Junior Web Developer e Grafico,
+                    con la passione per l'arte, la grafica e la programmazione web, motivo per cui mi dedico alla
+                    creazione di progetti grafici e di siti
+                    web.
+                </p>
+            </div>
             <div class="col-12 col-md-3 m-5">
                 <div class="card-b card cardCustom ">
                     <a href="{{ route('Bio') }}"><img src="/img/Salvatore.jpg" class="card-img"
                             alt="immagine di profilo"></a>
                 </div>
             </div>
-                    
-            
+
+
         </div>
     </div>
 
-    <div class="container fluid d-flex flex-row-reverse justify-content-center">
-        <div class="row ">
-            <div class="col-12 col-md-6 mt-5">
-                <h3 class="h2-custom ">Cosa faccio?</h3>
-                <p class="">Mi dedico più verso il front-end-developer "in parole povere è colui che si occupa
-                    dello
-                    sviluppo dell'interfaccia utente grafica di un sito web attraverso l'uso di HTML, CSS e JavaScript
-                    in
-                    modo che gli utenti possano visualizzare e interagire con quel sito web", mi è sempre piaciuta la
-                    programmazione e per questo motivo ho scelto di intraprendere questa strada, anche grazie ai miei
-                    studi
-                    in ambito Grafico mi sono voluto avvicinare per poter accomunare queste due passioni e per poterle
-                    sfruttare in ambito lavorativo. </p>
+    <div class="container-fluid bg-bl mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-3 mx-5 mt-5 ">
+                <h3 class="h2-custom text-w text-center">Cosa faccio come Web Developer</h3>
+                <p class="text-w h6 my-5">Sono un Full-stack developer, ma nello specifico mi occupo del "front-end" (sviluppo dell'interfaccia utente grafica di un sito web) attraverso l'uso di HTML, CSS e JavaScript, in modo che gli utenti possano visualizzare e interagire efficacemente con il sito web.</p>
+                
             </div>
-            <div class="col-12 col-md-6 p-5 mt-5">
+            <div class="col-12 col-md-3 mx-5 mt-5">
                 <div class="card-b card cardCustom">
-                    <a href="{{ route('WebDeveloper') }}"><img src="/img/AulabPost.jpg" class="card-img"
-                            alt="..."></a>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 m-5">
-                <div class="card-b card cardCustom ">
-                    <a href="{{ route('WebDeveloper') }}"><img src="/img/AulabPost2.jpg" class="card-img"
-                            alt="immagine di profilo"></a>
+                    <a href="{{ route('WebDeveloper') }}"><img src="/img/AulabPost.jpg" class="card-img" alt="..."></a>
                 </div>
             </div>
         </div>
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-12 col-md-3 mb-5 mx-5 mt-5">
+                <div class="card-b card cardCustom">
+                    <a href="{{ route('WebDeveloper') }}"><img src="/img/AulabPost2.jpg" class="card-img" alt="immagine di profilo"></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mt-5 mx-5">
+                <p class="text-w h6">Inizialmente, il mio obiettivo con la programmazione era quello di ampliare i miei orizzonti lavorativi. Poi, ho compreso che la mia creatività avrebbe potuto trovare molto più spazio unendo alla programmazione le mie competenze da grafico.</p>
+            </div>
+        </div>
     </div>
-    <div class="container-fluid bg-dark">
+    
+    
+    <div class="container-fluid ">
         <div class="row flex-row-reverse justify-content-center">
             <div class="col-12 col-md-3 mt-5">
-           
 
-            
-                <h3 class="h2-custom text-white">Cosa mi appassiona</h3>
-                <p class="text-white">Sono appassionato dell'Arte in ogni sua espressione, mi piace molto andare a
-                    vedere le mostre nei musei, ma mi appassiona anche un'altra cosa la Grafica, che dal 2019 mi ha
-                    portato a sviluppare un vero e proprio lavoro anche se part-time faccio lavori come grafico, per lo
-                    più creo loghi per aziende o privati. Questo lavoro si svolge con la consulenza iniziale verso il
-                    cliente e si prosegue con i primi schizzi di come dovrebbe essere il logo, successivamente si inizia
-                    con la progettazione e man mano che si avanza nel lavoro si fa vedere il lavoro svolto, ed
-                    eventualmente si effettuano le modifiche in base alle richieste del cliente. Fino alla presentazione
-                    finale.</p>
 
-                   
+
+                <h3 class="h2-custom text-center">Come mi sono avvicinato alla grafica</h3>
+                <p class="h6 my-5">Sono appassionato d'arte in ogni sua espressione, interesse scoperto
+                    sin da bambino e consolidato con i miei studi. Nel mio tempo libero amo visitare i musei e le gallerie d'arte di Roma. Dall'arte alla grafica, il passo è stato breve. 
+                    Dal 2019, infatti, lavoro free-lance come grafico creando loghi per
+                    aziende e
+                    privati.
+                
+                </p>
+
+
             </div>
-            <div class="col-12 col-md-3 m-5">
+            <div class="col-12 col-md-3 my-5 mt-5">
                 <div class="card-b card cardCustom ">
                     <a href="{{ route('GraficDesign') }}"><img src="/img/BM.jpg" class="card-img"
                             alt="immagine di profilo"></a>
