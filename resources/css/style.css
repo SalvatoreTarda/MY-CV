@@ -37,14 +37,7 @@
   color: var(--bl);
 }
 
-/* .WebDev{
-  background-image: linear-gradient(rgba(23,23,23,0.6), rgba(23,23,23,0.5)), url(public/img/WEB.jpg);
-  background-position: center;
-  background-size: cover;
-} */
 
-
-  
   /* Card e immagini */
 
 .cardCustom{
@@ -218,8 +211,8 @@
 /* torna su */
 
 :root {
-  --y: #FFD700; /* Sostituisci con il colore desiderato */
-  --g: rgb(0, 150, 55); /* Sostituisci con il colore desiderato */
+  --y: #FFD700; 
+  --g: rgb(0, 150, 55); 
 }
 
 .torna-su {
@@ -381,9 +374,6 @@
 
 /* Footer */
 
-/* .bg-bl {
-  background-color: #000; 
-} */
 
 .text-w {
   color:var(--w); 

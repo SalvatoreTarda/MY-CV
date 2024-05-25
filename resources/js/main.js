@@ -5,7 +5,6 @@ let links = document.querySelectorAll('.nav-link');
 let offNavbar = document.querySelectorAll('#offcanvasNavbar');
 var modals = document.querySelectorAll(".modal");
 var modalBtns = document.querySelectorAll("[id^='myBtn']");
-// var backToTop = document.querySelector(".back-to-top")
 
 
 // azioni degli elementi
@@ -16,7 +15,7 @@ window.addEventListener('scroll', () => {
 
     navbar.classList.remove('bg-bl');
     navbar.classList.add('bg-t');
-    // offNavbar.style.height ('100vh');
+    
     links.forEach((el) => {
       el.classList.remove('text-w')
       el.classList.add('text-b');
