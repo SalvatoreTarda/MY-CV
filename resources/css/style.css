@@ -12,6 +12,7 @@
     --y: rgb(255, 255, 0);
     --bl: rgb(0, 2, 90);
     --cl:  rgba(0, 195, 255, 0.821);
+    --g:  rgb(0, 150, 55);
 
 }
 
@@ -58,7 +59,7 @@
 .cardCustomb{
   width: 280px;
     height: 380px;
-    box-shadow: 0 4px 8px 0 var(--r), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 var(--g), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
     padding: 5px;
     bottom: 4px;
@@ -78,11 +79,12 @@
 .card-imgb{
   width: 270px;
   height: 360px;
+  transition: all 2s;
 }
 
 .card-img:hover{
-  width: 300px;
-  height: 390px;
+  width: 330px;
+  height: 430px;
 }
 
 
@@ -106,7 +108,7 @@
 .card-b:hover{
     width: 350px;
     height: 450px;
-    box-shadow: 0 4px 8px 0 rgb(255, 3, 3), 0 6px 10px 0  rgb(252, 252, 252);
+    box-shadow: 0 4px 8px 0 var(--g), 0 6px 10px 0  rgb(252, 252, 252);
     transform: rotate(360deg);
 }
 
@@ -128,7 +130,7 @@
 .card-bio:hover{
     width: 300px;
     height: 350px;
-    box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0  rgb(252, 252, 252);
+    box-shadow: 0 4px 8px 0 var(--g), 0 6px 10px 0  rgb(252, 252, 252);
     transform: scale(2,2);
 }
 
@@ -178,7 +180,7 @@
 }
 
 .nav-link:hover{
-    color: var(--r);
+    color: var(--g);
 }
 
 .navbar-toggler{
@@ -206,7 +208,7 @@
 
 .btn:hover{
   color: var(--y);
-  box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0  rgb(252, 252, 252);
+  box-shadow: 0 4px 8px 0 var(--g), 0 6px 10px 0  rgb(252, 252, 252);
   transform: scale(1,1.2);
   transition: all 0.7s ease-in-out;
 }
@@ -217,7 +219,7 @@
 
 :root {
   --y: #FFD700; /* Sostituisci con il colore desiderato */
-  --r: rgb(255, 5, 5); /* Sostituisci con il colore desiderato */
+  --g: rgb(0, 150, 55); /* Sostituisci con il colore desiderato */
 }
 
 .torna-su {
@@ -241,7 +243,7 @@
 
 .torna-su a:hover {
   color: var(--y);
-  box-shadow: 0 4px 8px 0 var(--r), 0 6px 10px 0 rgb(252, 252, 252);
+  box-shadow: 0 4px 8px 0 var(--g), 0 6px 10px 0 rgb(252, 252, 252);
   transform: scale(1, 1.2);
   
 }
@@ -393,7 +395,7 @@
 }
 
 .hov a:hover {
-  color:var(--r); 
+  color:var(--g); 
 }
 
 .btn-floating {

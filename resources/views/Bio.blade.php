@@ -78,7 +78,7 @@
             <div class="row d-flex justify-content-center mt-5 bg-bl">
                 <div class="col-12 col-md-3 mb-5 mx-3 mt-5">
                     <div class="card-b card cardCustom ">
-                        <img src="/img/Io.jpg" class="card-imgb" alt="...">
+                        <img src="/img/Io.jpg" class="card-img" alt="...">
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mt-5 mx-5">
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-12 col-md-3 mt-5">
                     <div class="card-b card cardCustom ">
-                        <img src="/img/Fico.jpg" class="card-img" alt="...">
+                        <img src="/img/calco.jpg" class="card-img" alt="...">
                     </div>
                 </div>
 
