@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-12 col-md-3 my-5 mx-md-5 mx-ms-3 mt-5">
                     <div class="card-b card cardCustom">
-                        <img src="/img/Calco.jpg" class="card-img" alt="...">
+                        <img src="/img/Calco.JPG" class="card-img" alt="...">
                     </div>
                 </div>
             </div>
