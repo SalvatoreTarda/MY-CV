@@ -18,7 +18,7 @@ window.addEventListener('scroll', () => {
     
     links.forEach((el) => {
       el.classList.remove('text-w')
-      el.classList.add('text-b');
+      el.classList.add('text-bl');
 
     })
 
@@ -29,7 +29,7 @@ window.addEventListener('scroll', () => {
     navbar.classList.add('bg-bl');
 
     links.forEach((el) => {
-      el.classList.remove('text-b');
+      el.classList.remove('text-bl');
       el.classList.add('text-w');
     })
     

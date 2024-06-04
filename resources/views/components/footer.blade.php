@@ -11,10 +11,10 @@
         <!-- Social Media Section -->
         <div class="col-12 mt-3 text-center">
             <section class="mb-4">
-                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/in/salvatore-tarda-grafico-junior-web-developer/" role="button">
+                <a class="btn text-white btn-floating m-1" style="background-color: var(--t);" href="https://www.linkedin.com/in/salvatore-tarda-grafico-junior-web-developer/" role="button">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/SalvatoreTarda?tab=repositories" role="button">
+                <a class="btn text-white btn-floating m-1" style="background-color: var(--t);" href="https://github.com/SalvatoreTarda?tab=repositories" role="button">
                     <i class="fab fa-github"></i>
                 </a>
             </section>

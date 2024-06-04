@@ -6,22 +6,25 @@
     <title>Responsive Navbar</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container-fluid d-flex my-5 mx-5">
+    <div class="container-fluid d-flex justify-content-center my-5 mx-5">
         <div class="row">
             <div class="col-12 col-md-3 mx-5">
                 <nav id="navbar" class="navbar navbar-expand-lg bg-bl fixed-top">
                     <a class="navbar-brand text-w nav-link mx-5" href="{{ route('welcome') }}">Salvatore Tarda</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler bg-t " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon text-w"></span> <!-- Aggiunta della classe 'white' -->
                     </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="{{ route('welcome') }}">Home</a>
-                            <a class="nav-link" href="{{ route('Bio') }}">Bio</a>
-                            <a class="nav-link" href="{{ route('WebDeveloper') }}">Web Developer</a>
-                            <a class="nav-link" href="{{ route('GraficDesign') }}">Grafica</a>
+                            <a class="nav-link text-w" aria-current="page" href="{{ route('welcome') }}"><span class="material-symbols-outlined">
+                                home
+                                </span></a>
+                            <a class="nav-link text-w" href="{{ route('Bio') }}">Bio</a>
+                            <a class="nav-link text-w" href="{{ route('WebDeveloper') }}">Web Developer</a>
+                            <a class="nav-link text-w" href="{{ route('GraficDesign') }}">Grafica</a>
                         </div>
                     </div>
                 </nav>

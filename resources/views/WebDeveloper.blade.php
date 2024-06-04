@@ -1,11 +1,11 @@
 <x-layout>
     <x-header title="Web Developer" />
-    <div class="container-fluid">
+    <div class="container-fluid bg-va">
         <div class="row d-flex flex-row-reverse justify-content-center align-items-center bg-web"
-            style="height: 100vh; padding-left: 0; padding-right: 0;">
+            style="; padding-left: 0; padding-right: 0;">
             <div class="col-12 col-md-6 mt-5 px-3">
-                <h3 class="h2-custom text-center mb-5">Come mi sono avvicinato al Web Development</h3>
-                <p class="h6 text-center">
+                <h3 class="h2-custom text-center text-bl mb-5">Come mi sono avvicinato al Web Development</h3>
+                <p class="h6 text-center text-bl">
                     Il mio interesse per la programmazione web inizia grazie ai racconti di un amico
                     programmatore. L'idea di poter creare dal nulla, grazie a dei linguaggi informatici sconosciuti ai
                     più,
@@ -25,7 +25,7 @@
     <div class="container-fluid bg-image" style="background-image: url('/img/WEB.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="row d-flex justify-around-center align-items-center  my-5 py-5">
             <div class="col-12 col-md-6 mt-5 mx-md-5 text-center">
-                <p class="text-w h6"> Forte di questo interesse iniziai a pianificare il miglior metodo per formarmi.
+                <p class="text-w h6 text-bl"> Forte di questo interesse iniziai a pianificare il miglior metodo per formarmi.
                     Nel Novembre 2023, dopo aver terminato l'ultima esperienza lavorativa, decido di fare un investimento
                     su me stesso ed iscrivermi ad un corso intensivo di 3 mesi presso Aulab: una scuola online dove ti
                     insegnano teoria e pratica, dal front-end al back-end, per la creazione di un sito web. In questi mesi,
@@ -48,10 +48,10 @@
     </div>
     
 
-    <div class="container-fluid">
+    <div class="container-fluid bg-va">
         <div class="row d-flex flex-row justify-content-center">
             <div class="col-12 col-md-6 mt-5 mx-md-5 mx-5 my-5">
-                <p class="h6">Adesso, nonostante mi senta pronto per mettermi in gioco in ambito lavorativo,
+                <p class="h6 text-bl">Adesso, nonostante mi senta pronto per mettermi in gioco in ambito lavorativo,
                     continuo a formarmi mettendo in pratica ciò che ho imparato. Questo sito ne è l'esempio.
                     All'interno del mio profilo <a href="https://github.com/SalvatoreTarda?tab=repositories">Git
                         Hub</a> potrete vedere alcuni progetti svolti durante il corso.
@@ -61,7 +61,7 @@
     </div>
 
 
-    <div class="container-fluid ">
+    <div class="container-fluid bg-va">
         <div class="row d-flex flex-row-reverse justify-content-around bgweb">
             <div class="col-12 col-md-3 mt-5 mx-md-5 my-5">
                 <div class="card-b card cardCustom">

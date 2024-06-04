@@ -1,10 +1,10 @@
 <x-layout>
     <x-header title="Grafica" />
-    <div class="container-fluid">
+    <div class="container-fluid bg-va">
         <div class="row d-flex flex-row-reverse justify-content-around align-items-center">
             <div class="col-12 col-md-3 mt-5 px-3">
-                <h3 class="h2-custom text-center">I miei progetti Grafici</h3>
-                <p class="h6 my-5">
+                <h3 class="h2-custom text-center text-bl">I miei progetti Grafici</h3>
+                <p class="h6 text-bl my-5">
                     Questi sono alcuni dei miei progetti lavorativi proposti in diverse varianti.
                     Insieme anche delle esercitazioni svolte durante i corsi di formazione.
                 </p>
