@@ -22,8 +22,8 @@
         <!-- CV Section -->
         <div class="col-12 col-md-3 mt-3 text-center">
             <p class="text-w">CV:</p>
-            <embed src="/img/cv_salvatore_tarda_2024r.pdf" type="application/pdf" width="100%" height="100px">
-            <a href="/img/cv_salvatore_tarda_2024r.pdf" download="cv_salvatore_tarda_2024r.pdf" class="btn mb-5 saltello text-w">Scarica il PDF</a>
+            <embed src="/img/CV Salvatore Tarda 2024R.pdf" type="application/pdf" width="100%" height="100px">
+            <a href="/img/CV Salvatore Tarda 2024R.pdf" download="CV Salvatore Tarda 2024R.pdf" class="btn mb-5 saltello text-w">Scarica il PDF</a>
         </div>
         
     </div>
