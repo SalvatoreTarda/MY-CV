@@ -70,7 +70,7 @@
             </div>
             <div class="col-12 col-md-4 mt-4 mb-4">
                 <div class="card-b card cardCustom ">
-                    <a href="{{ route('GraficDesign') }}"><img src="/img/LOGOSALVATORETARDADEF.jpg" class="card-img"
+                    <a href="{{ route('GraficDesign') }}"><img src="/img/LOGOSALVATORETARDAtrasp.png" class="card-img"
                             alt="immagine di profilo"></a>
                 </div>
             </div>
