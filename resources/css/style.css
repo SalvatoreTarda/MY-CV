@@ -284,6 +284,19 @@ a:active {
   }
 }
 
+@media (max-width: 767px) {
+  body {
+      font-family: "Roboto", cursive !important;
+      font-weight: 400 !important;
+      font-style: normal !important;
+  }
+  .text-w {
+      font-family: "Roboto", cursive !important;
+      font-weight: 400 !important;
+      font-style: normal !important;
+  }
+}
+
 .torna-su.show {
   opacity: 1;
 }
