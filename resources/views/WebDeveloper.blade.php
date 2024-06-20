@@ -1,6 +1,6 @@
 <x-layout>
     <x-header title="Web Developer" />
-    <div class="container-fluid bg-va">
+    <div class="container-fluid ">
         <div class="row d-flex flex-row-reverse justify-content-center align-items-center bg-web"
             style="; padding-left: 0; padding-right: 0;">
             <div class="col-12 col-md-6 mt-5 px-3">
@@ -39,7 +39,7 @@
                 </div>
             </div>
             
-            <div class="col-12 col-md-4 my-5 mx-md-5 ">
+            <div class="col-12 col-md-4 my-5 mx-md-5">
                 <div class="card-b card cardCustom">
                     <img src="/img/AulabPost.jpg" class="card-img" alt="...">
                 </div>
@@ -48,7 +48,7 @@
     </div>
     
 
-    <div class="container-fluid bg-va">
+    <div class="container-fluid ">
         <div class="row d-flex flex-row justify-content-center">
             <div class="col-12 col-md-6 mt-5 mx-md-5 mx-5 my-5">
                 <p class="h6 text-bl">Adesso, nonostante mi senta pronto per mettermi in gioco in ambito lavorativo,
@@ -61,7 +61,7 @@
     </div>
 
 
-    <div class="container-fluid bg-va">
+    <div class="container-fluid ">
         <div class="row d-flex flex-row-reverse justify-content-around bgweb">
             <div class="col-12 col-md-3 mt-5 mx-md-5 my-5">
                 <div class="card-b card cardCustom">

@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-12 col-md-3 mx-5">
                 <nav id="navbar" class="navbar navbar-expand-lg bg-bl fixed-top">
-                    <a class="navbar-brand text-w nav-link mx-5" href="{{ route('welcome') }}">Salvatore Tarda</a>
+                    <a class="navbar-brand text-w nav-link mx-5" href="{{ route('welcome') }}"><img class="navbar-logo" src="/img/LOGOSALVATORETARDAtrasp.png"  alt="..."></a>
                     <button class="navbar-toggler bg-t " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon text-w"></span> <!-- Aggiunta della classe 'white' -->
                     </button>

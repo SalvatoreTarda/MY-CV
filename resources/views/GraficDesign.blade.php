@@ -1,6 +1,6 @@
 <x-layout>
     <x-header title="Grafica" />
-    <div class="container-fluid bg-va">
+    <div class="container-fluid ">
         <div class="row d-flex flex-row-reverse justify-content-around align-items-center">
             <div class="col-12 col-md-3 mt-5 px-3">
                 <h3 class="h2-custom text-center text-bl">I miei progetti Grafici</h3>
@@ -12,6 +12,8 @@
             <div class="col-12 col-md-6 my-5 px-3">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide"><img src="/img/LOGOSALVATORETARDAtrasp.png" class="swiper-slide img"></div>
                         <div class="swiper-slide"><img src="/img/BMalt.jpg" class="swiper-slide img"></div>
                         <div class="swiper-slide"><img src="/img/BMn.jpg" class="swiper-slide img"></div>
                         <div class="swiper-slide"><img src="/img/Barmi.jpg" class="swiper-slide img"></div>

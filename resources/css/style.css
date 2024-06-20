@@ -17,6 +17,9 @@
 
 }
 
+body{
+  font-family: 'Roboto', sans-serif !important; 
+}
 
 .text-r{
   color: var(--r);
@@ -198,6 +201,11 @@ a:active {
   margin-right: 45px;
   color:#fff
   
+}
+
+.navbar-logo{
+  height: 125px;
+  width: auto;
 }
 
 /* bottoni */

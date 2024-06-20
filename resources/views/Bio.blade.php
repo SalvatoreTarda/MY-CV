@@ -1,6 +1,6 @@
 <x-layout>
     <x-header title="Chi sono" />
-    <div class="container-fluid bg-va px-3">
+    <div class="container-fluid px-3">
         <div class="row d-flex flex-row-reverse justify-content-around align-items-center">
             <div class="col-12 col-md-4 mt-4">
                 <div class="card-b card cardCustom">

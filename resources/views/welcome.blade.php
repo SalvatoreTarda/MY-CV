@@ -1,7 +1,7 @@
 <x-layout>
 
     <x-header title="Benvenuti sulla mia pagina" />
-    <div class="container-fluid bg-va ">
+    <div class="container-fluid ">
         <div class="row d-flex flex-row-reverse justify-content-around align-items-center ">
             <div class="col-12 col-md-4 mt-4">
                 <h3 class="h2-custom text-center text-bl">Salve a tutti, mi presento.</h3>
@@ -51,8 +51,8 @@
     </div>
     
     
-    <div class="container-fluid bg-va ">
-        <div class="row d-flex flex-row-reverse justify-content-around align-items-center ">
+    <div class="container-fluid  ">
+        <div class="row d-flex justify-content-around align-items-center ">
             <div class="col-12 col-md-3 mt-5">
 
 
@@ -70,7 +70,7 @@
             </div>
             <div class="col-12 col-md-4 mt-4 mb-4">
                 <div class="card-b card cardCustom ">
-                    <a href="{{ route('GraficDesign') }}"><img src="/img/BM.jpg" class="card-img"
+                    <a href="{{ route('GraficDesign') }}"><img src="/img/LOGOSALVATORETARDADEF.jpg" class="card-img"
                             alt="immagine di profilo"></a>
                 </div>
             </div>
