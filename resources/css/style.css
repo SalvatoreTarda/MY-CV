@@ -4,6 +4,21 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* @media(max-width: 768px) {
+    font-family: "Roboto", cursive;
+    font-weight: 400;
+    font-style: normal;
+       
+    } */
+  
+  
+  @media (max-width: 480px) {
+    .img-responsive {
+      width: 50%; 
+    }
+  }  
+
 /* colori */
   :root{
     --r: rgb(255, 5, 5);
